@@ -1,0 +1,73 @@
+# ===== Sistema operativo =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ===== Editores / IDEs =====
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ===== Node / tooling =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json.bak
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.cache/
+
+# ===== Build / output =====
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.turbo/
+.vite/
+
+# ===== Entorno / secretos =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ===== Python (por si se añade tooling de build) =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ===== Logs y temporales =====
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ===== Backups manuales (el clásico index.old.html) =====
+*.old.html
+*.bak
+*.orig
